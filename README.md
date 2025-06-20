@@ -45,7 +45,7 @@ This activity is meant to give your team experience writing a larger program tog
   - Display the positions using three (3) decimal places
 
 **Before writing your program:**</br>
-It’s good practice to think before you code. As a team, follow the steps below.
+*It’s good practice to think before you code.* As a team, follow the steps below.
 1. Make a list of the variables that your team will use in this program. Be sure to include:
    - The variable names
    - The type of each variable (data type)
@@ -53,7 +53,7 @@ It’s good practice to think before you code. As a team, follow the steps below
 2. Write a brief description of the calculations your program will perform, including a sample calculation done by hand.
 3. Finally, write your code *as a team*. Please name this file `still_more_linear_interpolation.py` for submission. Remember to test you code to make certain it works properly.
 
-Example output (for inputs `1`, `1`, `1`, `1`, `2`, `2`, `2`, `2`):
+Example output (for inputs `1`, `1`, `1`, `1`, `2`, `2`, `2`, and `2`):
 ```
 Enter time 1: 1
 Enter the x position of the object at time 1: 1
