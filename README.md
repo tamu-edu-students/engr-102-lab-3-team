@@ -7,7 +7,33 @@ This lab consists of two team activities. Please submit the following files to G
 2. [Still More Linear Interpolation](#still-more-linear-interpolation)
 
 ## Unit Conversions
-description
+This activity is meant to help illustrate the process of asking a user for input, reading the input, processing a computation, and outputting a result. Many programs will follow that basic format. Unit conversions (and print statements) may seem to be a trivial exercise, but it can be critically important to do it correctly as mishandling the proper communication of units can lead to project failure or even loss of human life. Please search and read a little bit about the Mars Climate Orbiter, and read the two links below:
+
+- [Wikipedia page on the Mars Climate Orbiter](https://en.wikipedia.org/wiki/Mars_Climate_Orbiter)
+- [Why the Mars probe went off course](https://spectrum.ieee.org/why-the-mars-probe-went-off-course)
+
+Write one program that prompts the user to enter one number, stores it in an appropriately named variable, performs the necessary calculations, and outputs the results to the screen with proper labels and two (2) decimal places for each unit conversion listed below. Write a single program named `unit_conversions.py` that outputs all conversions.
+
+1. Pounds (force) to Newtons
+2. Meters to feet
+3. Atmospheres to kilopascals (kPa)
+4. Watts to BTU per hour
+5. Liters per second to US gallons per minute
+6. Degrees Celsius to degrees Fahrenheit
+
+Example output (using input `1`):
+```
+Please enter the quantity to be converted: 1
+1.00 pounds force is equivalent to 4.45 newtons
+1.00 meters is equivalent to 3.28 feet
+1.00 atmospheres is equivalent to 101.33 kilopascals
+1.00 watts is equivalent to 3.41 BTU per hour
+1.00 liters per second is equivalent to 15.85 US gallons per minute
+1.00 degrees Celsius is equivalent to 33.80 degrees Fahrenheit
+```
+
+As always, please include descriptive comments in your code so that someone may follow your programming logic.
+
 
 ## Still More Linear Interpolation
 description
