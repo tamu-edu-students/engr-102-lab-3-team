@@ -36,7 +36,41 @@ As always, please include descriptive comments in your code so that someone may 
 
 
 ## Still More Linear Interpolation
-description
+This activity is meant to give your team experience writing a larger program together. Your program should take as input the time and location of a moving object at two points, then using linear interpolation calculate the position at several intermediate times. Your program needs to perform the following tasks:
+
+- Prompt the user to enter the time and position at two points (see example output below)
+- Use interpolation to calculate the times and positions for three evenly spaced points between the two points entered by the user
+- Print the results using nice formatting
+  - Display the times using two (2) decimal places
+  - Display the positions using three (3) decimal places
+
+**Before writing your program:**</br>
+It’s good practice to think before you code. As a team, follow the steps below.
+1. Make a list of the variables that your team will use in this program. Be sure to include:
+   - The variable names
+   - The type of each variable (data type)
+   - A very brief description of what each variable is (you can write one description for multiple variables if it is clear what they all are)
+2. Write a brief description of the calculations your program will perform, including a sample calculation done by hand.
+3. Finally, write your code *as a team*. Please name this file `still_more_linear_interpolation.py` for submission. Remember to test you code to make certain it works properly.
+
+Example output (for inputs `1`, `1`, `1`, `1`, `2`, `2`, `2`, `2`):
+```
+Enter time 1: 1
+Enter the x position of the object at time 1: 1
+Enter the y position of the object at time 1: 1
+Enter the z position of the object at time 1: 1
+Enter time 2: 2
+Enter the x position of the object at time 2: 2
+Enter the y position of the object at time 2: 2
+Enter the z position of the object at time 2: 2
+
+At time 1.00 seconds the object is at (1.000, 1.000, 1.000)
+At time 1.25 seconds the object is at (1.250, 1.250, 1.250)
+At time 1.50 seconds the object is at (1.500, 1.500, 1.500)
+At time 1.75 seconds the object is at (1.750, 1.750, 1.750)
+At time 2.00 seconds the object is at (2.000, 2.000, 2.000)
+```
+
 
 ## Frequently Asked Questions
 1. **Gradescope says I have an extra new line character (`\n`) and won't give me points. What gives?** Remember, `print()` statements automatically add a new line character (`\n`), but `input()` statements do not! Try moving your text inside your `input()` statement when taking input from the keyboard.
