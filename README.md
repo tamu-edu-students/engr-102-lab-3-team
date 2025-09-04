@@ -12,7 +12,7 @@ This activity is meant to help illustrate the process of asking a user for input
 - [Wikipedia page on the Mars Climate Orbiter](https://en.wikipedia.org/wiki/Mars_Climate_Orbiter)
 - [Why the Mars probe went off course](https://spectrum.ieee.org/why-the-mars-probe-went-off-course)
 
-Write one program that prompts the user to enter one number, stores it in an appropriately named variable, performs the necessary calculations, and outputs the results to the screen with proper labels and two (2) decimal places for each unit conversion listed below. Write a single program named `unit_conversions.py` that outputs all conversions.
+Write one program that prompts the user to enter one number, stores it in an appropriately named variable, performs the necessary calculations, and outputs the results to the screen with proper labels and two (2) decimal places for each unit conversion listed below. Write a single program named `unit_conversions.py` that outputs all conversions. As always, please include descriptive comments in your code so that someone may follow your programming logic.
 
 1. Pounds (force) to Newtons
 2. Meters to feet
@@ -32,7 +32,7 @@ Please enter the quantity to be converted: 1
 1.00 degrees Celsius is equivalent to 33.80 degrees Fahrenheit
 ```
 
-As always, please include descriptive comments in your code so that someone may follow your programming logic.
+**Note:** 1 watt is equal to 3.41214163 BTU per hour, and 1 liter is equal to 0.264172052 US gallons
 
 
 ## Still More Linear Interpolation
