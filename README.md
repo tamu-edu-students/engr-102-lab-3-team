@@ -75,7 +75,7 @@ At time 2.00 seconds the object is at (2.000, 2.000, 2.000)
 ## Frequently Asked Questions
 1. **Gradescope says I have an extra new line character (`\n`) and won't give me points. What gives?** Remember, `print()` statements automatically add a new line character (`\n`), but `input()` statements do not! Try moving your text inside your `input()` statement when taking input from the keyboard.
 
-2. **I'm having trouble formatting my output. How do I do it?** Watch [this string formatting video posted with Module 3](https://mediasite.tamu.edu/Mediasite/Play/95fc0a90130d47f5802d87e1d3020ecd1d). Also check out ![this pdf](String_Format_Printing.pdf) (also posted on Canvas) about string formatting. For more information about string formatting, check out section 3.10 in your zyBooks.
+2. **I'm having trouble formatting my output. How do I do it?** Watch [this string formatting video posted with Module 3](https://mediasite.tamu.edu/Mediasite/Play/95fc0a90130d47f5802d87e1d3020ecd1d). Also check out ![this pdf](String_Format_Printing.pdf) about string formatting.
 
 3. **Right, but I'm still having trouble with my output. The answer is 1.00 but it only displays 1.0. Why?** Are you using the `round()` function? I hate the `round()` function because it cuts off extra zeros at the end. Use a different string formatting method to display all necessary zeros!
 
@@ -84,4 +84,4 @@ At time 2.00 seconds the object is at (2.000, 2.000, 2.000)
 Have a question you don't see here? Email your instructor!
 
 Based upon Dr. Keyser’s Original<br/>
-Revised Summer 2025 SNR
+Revised Summer 2026 SNR
